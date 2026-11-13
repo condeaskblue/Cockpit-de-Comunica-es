@@ -74,6 +74,7 @@
 |---|---|
 | Name | text box |
 | Email | text box |
+| password | text box | |
 | Approver | checkbox (bool) |
 | Admin | checkbox (bool) |
 | Approving | checkbox (bool) |
@@ -93,7 +94,7 @@
 | id | int | PK |
 | name | string | |
 | email | string | |
-| password_hash | string | |
+| password | string | |
 | birth_date | date | |
 | tax_id (NIF) | int | |
 | is_approver | boolean | |
