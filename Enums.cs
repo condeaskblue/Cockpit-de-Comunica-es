@@ -17,3 +17,11 @@ public enum CampaignModel
     Facebook,
     LinkedIn
 }
+
+public enum UserCaracteristics
+{
+    Admin,
+    isAprovando,
+    isAprovado,
+    isActive
+}
