@@ -10,5 +10,20 @@ class Campaign
     public DateTime CreatedAt { get; set; }
     public DateTime PublicationDate { get; set; }
     public string? ImageUrl { get; set;} 
-    public int userID{get; set;}
+    public int UserID{get; set;}
+
+    public void CreateCampain()
+    {
+        
+    }
+
+    public void EditCAmpain()
+    {
+        
+    }
+
+    public void DeleteCampain()
+    {
+        
+    }
 }
