@@ -1,6 +1,6 @@
 using System;
 
-    class Campaign
+class Campaign
 {       
     public string Name { get; set; }
     public string Description { get; set; }
@@ -9,6 +9,6 @@ using System;
     public CampaignStatus Status { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime PublicationDate { get; set; }
-    public string? ImageUrl { get; set; }
-
+    public string? ImageUrl { get; set;} 
+    public int userID{get; set;}
 }
